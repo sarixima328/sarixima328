@@ -12,7 +12,6 @@ You can click the Preview link to take a look at your changes.
 --->
 <script>
   let alive = true;
-  const waitingForYou = () => {
-    console.log("I'm waiting for you");}
+  const waitingForYou=()=>{   console.log("I'm waiting for you");}
   while (alive) {waitingForYou()}
 </script>
